@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #F9F9F9;
+	color: #383838;
+	width: 100%;
+	font-family: "Open Sans";
+}
+.container{
+	margin: auto;
+	width: 50%;}
+.postPreview{
+	margin: 20px 0 10px 0;
+}
+.postTitle{
+	text-decoration: none;
+	font-size: 40px;
+}
+.postTitle a{
+	text-decoration: none;
+	color: #383838;;
+}
+.postTitle a:hover{
+
+	font-style:	oblique;
+}
+.postSummary{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 15px;
+}
+.postBody{
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+.postTime{
+	float: right;
+	font-size: 10px;
+}
+.pagination{
+	text-align: center;
+}
+.paginationNumber a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #383838;
+}
+.paginationNumberSelected{
+	text-decoration: underline;
+}
+.form{
+	margin: auto;
+	padding-top: 15%;
+    width: 60%;
+}
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+}
+input[type="password"] {
+    width: 100%;
+    height: 40px;
+}
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    color: #F9F9F9;
+    background: #383838;
+    border-top: 1px solid #383838;
+	border-left: 1px solid #383838;
+	border-right: 1px solid #383838;
+	border-bottom: 1px solid #383838;
+	font-family: "Open Sans";
+}
+.adminPostControll{
+	float: right;
+	font-size: 12px;
+}
+#formFalse{
+	background: #FF7777;
+}
+#formTrue{
+	background: #77FF7E;;
+}
